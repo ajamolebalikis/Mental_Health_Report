@@ -15,7 +15,7 @@ Mental health remains a critical global health challenge, with rising prevalence
 - [Conclusions](#conclusions)
 
 ## Problem Statement
-Mental health disorders, including depression, anxiety, and schizophrenia, impose a substantial global burden, yet many regions, particularly low- and middle-income countries (LMICs), face significant treatment gaps and underreported data. Current public health strategies lack sufficient data-driven insights to prioritize resources effectively, especially where prevalence and burden are high but treatment access is limited. This necessitates a comprehensive study to identify disparities and inform evidence-based interventions.
+Mental health disorders, including depression, anxiety, and schizophrenia, impose a substantial global burden, yet many regions, particularly lower -and middle-income countries (LMICs), face significant treatment gaps and underreported data. Current public health strategies lack sufficient data-driven insights to prioritize resources effectively, especially where prevalence and burden are high but treatment access is limited. This necessitates a comprehensive study to identify disparities and inform evidence-based interventions.
 
 ## Project Overview
 This project conducts a detailed analysis of global mental health data, starting with datasets downloaded from Kaggle. Data cleaning was performed in Excel to ensure quality and consistency, followed by analysis using SQL Server. The study integrates seven datasets from the Institute for Health Metrics and Evaluation (IHME) Global Burden of Disease (GBD) study, focusing on prevalence rates, disease burden (DALYs), treatment gaps, and data coverage across countries and years (1990–2019). The analysis includes data importation into SQL Server, querying to answer key business questions, and generating recommendations for public health stakeholders.
@@ -48,7 +48,7 @@ The project utilizes the following datasets, downloaded from Kathleen:
 The analysis conducted revealed the following insights:
 - *Prevalence*: Uganda recorded the highest depressive disorder rate (5.7%), while Brunei had the lowest (2.5%). Anxiety is the most common disorder globally (4%), with stable or slightly increasing trends, depression from 3.4% in 1990 to 3.8% in 2019.
 - *Burden*: Depression accounts for 46% of mental DALYs, with sub-Saharan Africa showing high schizophrenia DALYs despite low reported prevalence (possible underreporting).
-- *Treatment Gaps*: Nigeria (94% untreated anxiety) and China (90%) exhibit the largest gaps; the USA leads with 29% potentially adequate treatment.
+- *Treatment Gaps*: Lebanon (92% untreated anxiety), Iraq (89%), Nigeria (88.6%) and lower-middle-income-countries exhibit the largest gaps; the USA leads with 29% potentially adequate treatment.
 - *Data Coverage*: Global adult coverage is 55% for major depression and 50% for anxiety; dysthymia (25%) and eating disorders (30%) are underrepresented, with high-income regions North America better studied than sub-Saharan Africa (20–30%).
 - *Depressive Symptoms (US)*: “Several days” (30%) is most common; “nearly every day” (5%) is least prevalent.
 - *Mismatches*: Sub-Saharan Africa and the Middle East show high DALYs but low treatment coverage like 85% untreated anxiety.
@@ -56,7 +56,7 @@ The analysis conducted revealed the following insights:
 
 ## Recommendations
 Based on the analysis, the following recommendations are proposed for public health decision-makers:
-- *Prioritize Uganda and LMICs*: Expand mental health services in Uganda (highest prevalence at 5.7%), Nigeria, China, and sub-Saharan Africa through telehealth and provider training.
+- *Prioritize Uganda and LMICs*: Expand mental health services in Uganda (highest prevalence at 5.7%), Lebanon, Iraq, Nigeria, LMIC and sub-Saharan Africa through telehealth and provider training.
 - *Improve Data Collection*: Increase primary data surveys in Africa and Asia, focusing on underrepresented disorders like dysthymia and eating disorders.
 - *Address Disorders*: Enhance schizophrenia diagnostics and reporting in high-DALY regions like sub-Saharan Africa.
 - *Target Vulnerable Groups*: Focus on women and youth (rising prevalence) with gender-specific interventions, especially in the U.S. for frequent symptoms.
